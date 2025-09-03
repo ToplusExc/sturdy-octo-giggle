@@ -1,5 +1,6 @@
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-size: 1.125rem; /* Meningkatkan ukuran font dasar */
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -15,12 +16,12 @@ header.hero {
 }
 
 header.hero h1 {
-    font-size: 3rem;
+    font-size: 3.5rem; /* Menaikkan ukuran font */
     margin-bottom: 0.5rem;
 }
 
 header.hero .tagline {
-    font-size: 1.2rem;
+    font-size: 1.5rem; /* Menaikkan ukuran font */
     font-style: italic;
     margin-bottom: 2rem;
 }
@@ -41,6 +42,24 @@ h2, h3 {
     border-bottom: 2px solid #3498db;
     padding-bottom: 0.5rem;
     margin-top: 0;
+}
+
+h2 {
+    font-size: 2rem; /* Menaikkan ukuran font */
+}
+
+h3 {
+    font-size: 1.5rem; /* Menaikkan ukuran font */
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 1.5rem auto;
+    border: 3px solid #3498db;
 }
 
 .skills ul {
