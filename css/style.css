@@ -1,6 +1,6 @@
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     line-height: 1.7;
     margin: 0;
     padding: 0;
@@ -29,11 +29,10 @@ header.hero .tagline {
 }
 
 header.hero p {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     max-width: 700px;
     margin: 0 auto;
 }
-
 
 main {
     max-width: 900px;
@@ -140,5 +139,28 @@ footer {
 @media (max-width: 768px) {
     .contact-links {
         flex-direction: column;
+    }
+}
+
+@media (max-width: 600px) {
+    body {
+        font-size: 1.5rem;
+    }
+
+    header.hero h1 {
+        font-size: 3rem;
+    }
+
+    header.hero .tagline,
+    header.hero p {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
     }
 }
