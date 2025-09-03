@@ -67,6 +67,15 @@ h2, h3 {
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
+.project-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1.5rem auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
 .btn, .contact-btn {
     display: inline-block;
     background-color: #3498db;
